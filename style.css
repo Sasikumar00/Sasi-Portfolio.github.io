@@ -155,6 +155,9 @@ html,body{
     text-decoration: none;
     color: black;
 }
+.home-btns a{
+    -webkit-tap-highlight-color: transparent;
+}
 .home-btns a:hover{
     background-color: transparent;
     color: white;
