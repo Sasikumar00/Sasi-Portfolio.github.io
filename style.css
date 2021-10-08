@@ -32,6 +32,7 @@ html,body{
 .go-to-home a{
     text-decoration: none;
     color: white;
+    -webkit-tap-highlight-color: transparent;
 }
 .hamb-menu{
     position: absolute;
@@ -66,6 +67,8 @@ html,body{
     text-decoration: none;
     color: white;
     font-size: 25px;
+    -webkit-tap-highlight-color: transparent;
+
 }
 .hamb-menu .hamb-close{
     position: absolute;
