@@ -194,6 +194,9 @@ html,body{
     list-style: none;
     margin: 0 20px;
 }
+.social-links li a{
+    -webkit-tap-highlight-color: transparent;
+}
 .social-links img{
     width: 2rem;
     filter: invert(83%) sepia(55%) saturate(3367%) hue-rotate(99deg) brightness(97%) contrast(76%);
