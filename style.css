@@ -145,7 +145,7 @@ button:hover{
     left: -3000px;
 }
 #About{
-    height: 790px;
+    height: 850px;
 }
 #About h1{
     text-align: center;
@@ -190,6 +190,7 @@ button:hover{
     color: white;
 }
 #Contact{
+    margin-top: 20px;
     height: 600px;
 }
 #Contact h1{
@@ -197,6 +198,9 @@ button:hover{
 }
 #Contact h1 span{
     color: #1ed88e;
+}
+#Contact h3{
+    font-size: 22px;
 }
 .contact-content{
     height: 600px;
@@ -207,7 +211,7 @@ button:hover{
 }
 .contact-content input{
     padding: 5px 10px;
-    width: 50%;
+    width: 100%;
     font-size: 90%;
     margin: 10px 0;
 }
@@ -218,9 +222,23 @@ footer{
     position: relative;
     bottom: 0;
     background-image: linear-gradient(to bottom left, #1ed88e, #1b7752);
-    height: 150px;
+    height: 170px;
     width: 100%;
     text-align: center;
     font-size: 90%;
     padding-top: 20px;
+}
+.footer-text span{
+    color: white;
+}
+footer .source-links{
+    margin: 10px 80px;
+    text-align: left;
+}
+.source-links li a{
+    text-decoration: none;
+    color: black;
+}
+.source-links ul{
+    padding: 0 20px;
 }
