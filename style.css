@@ -255,6 +255,12 @@ html,body{
     resize: none;
     outline: none;
 }
+.contact-content #submit{
+    background-color: #1ed88e;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid #1ed88e;
+}
 footer{
     position: relative;
     bottom: 0;
