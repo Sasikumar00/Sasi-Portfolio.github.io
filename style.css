@@ -236,9 +236,6 @@ html,body{
 .hide{
     display: none;
 }
-#About{
-    height: 850px;
-}
 #About h1{
     text-align: center;
 }
