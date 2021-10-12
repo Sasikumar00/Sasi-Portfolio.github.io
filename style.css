@@ -16,6 +16,9 @@ html,body{
     .web-nav{
         display: none;
     }
+    .modal-content{
+        flex-direction: column;
+    }
 }
 @media (min-width: 650px) {
     .hamburger{
