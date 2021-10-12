@@ -17,8 +17,8 @@ html,body{
         display: none;
     }
     .modal-content img{
-        border-radius: 5px;
-        width: 100%;
+        border-radius: 0px;
+        width: 110%;
     }
 }
 @media (min-width: 650px) {
