@@ -226,6 +226,9 @@ html,body{
 .hidden{
     left: -3000px;
 }
+.hide{
+    display: none;
+}
 #About{
     height: 850px;
 }
@@ -274,6 +277,95 @@ html,body{
 #Portfolio h1{
     text-align: center;
     color: white;
+}
+.portfolio-content{
+    position: relative;
+    margin: 30px;
+    height: 80%;
+}
+.portfolio-1{
+    position: relative;
+    width: 40%;
+    height: 46%;
+    transition: all .6s ease;
+    cursor: pointer;
+}
+.portfolio-content img{
+    position: absolute;
+    width: 100%;
+    top:0;
+    z-index: 1;
+    border-radius: 5px;
+}
+.portfolio-content h3{
+    position: absolute;
+    color: white;
+    top: 45%;
+    left: 25%;
+}
+.portfolio-hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(165, 14, 14, 0.7), rgba(84, 7, 7, 0.7));
+    z-index: 2;
+    transition: all .6s ease;
+    border-radius: 5px;
+    opacity: 0;
+}
+.portfolio-1:hover{
+    transform: scale(1.01);
+}
+.portfolio-hover:hover{
+    opacity: 100;
+}
+.portfolio-modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 13;
+}
+.portfolio-modal .close-modal{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 3%;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(158deg) brightness(101%) contrast(102%);
+    cursor: pointer;
+}
+.modal-content{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 10%;
+    width: 100%;
+    height: 95%;
+}
+.modal-content img{
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 5%;
+    border-radius: 30px;
+}
+.download-prj{
+    color: white;
+    margin: 10px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.download-prj a{
+    padding: 5px 20px;
+    background-color: #191fc7;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 #Contact{
     margin-top: 20px;
