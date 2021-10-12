@@ -24,6 +24,10 @@ html,body{
     .web-nav{
         display: block;
     }
+    .modal-content img{
+        border-radius: 5px;
+        width: 100%;
+    }
 }
 @media (max-width: 1163px) {
     .hire{
