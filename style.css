@@ -16,6 +16,10 @@ html,body{
     .web-nav{
         display: none;
     }
+    .modal-content img{
+        border-radius: 5px;
+        width: 100%;
+    }
 }
 @media (min-width: 650px) {
     .hamburger{
@@ -23,10 +27,6 @@ html,body{
     }
     .web-nav{
         display: block;
-    }
-    .modal-content img{
-        border-radius: 5px;
-        width: 100%;
     }
 }
 @media (max-width: 1163px) {
