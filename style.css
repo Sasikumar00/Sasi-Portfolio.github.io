@@ -275,6 +275,11 @@ html,body{
     width: 2rem;
     filter: invert(83%) sepia(55%) saturate(3367%) hue-rotate(99deg) brightness(97%) contrast(76%);
 }
+.portfolios{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
 #Portfolio{
     padding: 10px;
     margin-top: 20px;
@@ -285,15 +290,19 @@ html,body{
     text-align: center;
     color: white;
 }
+.spotify-link{
+    width: 100%;
+    height: 100%;
+}
 .portfolio-content{
-    position: relative;
+    width: 90%;
     margin: 30px;
     height: 80%;
 }
 .portfolio-1{
     position: relative;
-    width: 40%;
-    height: 46%;
+    width: 100%;
+    height: 54%;
     transition: all .6s ease;
     cursor: pointer;
 }
@@ -320,10 +329,23 @@ html,body{
     border-radius: 5px;
     opacity: 0;
 }
+.portfolio-hover-2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#7c103fb1, #3a061db1);
+    z-index: 2;
+    transition: all .6s ease;
+    border-radius: 5px;
+    opacity: 0;
+}
 .portfolio-1:hover{
     transform: scale(1.01);
 }
 .portfolio-hover:hover{
+    opacity: 100;
+}
+.portfolio-hover-2:hover{
     opacity: 100;
 }
 .portfolio-modal{
