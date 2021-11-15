@@ -314,11 +314,10 @@ html,body{
     border-radius: 5px;
 }
 .portfolio-content h3{
-    position: absolute;
     color: white;
-    top: 45%;
-    left: 25%;
-}
+    text-align: center;
+    margin: 25% 0;
+} 
 .portfolio-hover{
     position: absolute;
     width: 100%;
